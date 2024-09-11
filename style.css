@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('/files/centurygothic.ttf') format('truetype');
+  }
+  
+  h1, p {
+      padding: 30px;
+    font-family: 'CenturyGothic', sans-serif;
+    font-size: 36px; /* adjust font size as needed */
+  }
+  
+  h2, h3, h4 {
+      font-family: 'CenturyGothic';
+  }
+  
+      .button {
+          padding: 20px 30px;
+          font-size: 40px;
+          border: 5px solid black;
+          background-color: orange;
+      }
+  
+      .text {
+      font-size: 40px;
+      text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p, img, button {
+      padding-bottom: 30px;
+    margin: 0 auto;
+    display: block;
+  }
+  
